@@ -1,0 +1,29 @@
+{
+  "name": "custodyn",
+  "version": "1.0.0",
+  "description": "AI trust and security infrastructure — audit, block, and approve every agent action",
+  "main": "sdk/custodyn.js",
+  "types": "sdk/custodyn.d.ts",
+  "keywords": [
+    "ai", "agents", "security", "audit", "llm",
+    "openai", "anthropic", "langchain", "trust", "safety",
+    "typescript", "policy", "governance"
+  ],
+  "author": "Custodyn",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/custodyn/custodyn"
+  },
+  "scripts": {
+    "demo": "node sdk/example.js",
+    "demo:ts": "ts-node sdk/example.ts",
+    "server": "python3 backend/server_v4.py",
+    "dashboard": "python3 -m http.server 8080 --directory dashboard"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0"
+  }
+}

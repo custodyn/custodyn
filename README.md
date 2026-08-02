@@ -6,9 +6,14 @@
 
 Intercept high-impact agent actions, evaluate them against policy, and keep a tamper-evident record of the decision.
 
-[![License: MIT](https://img.shields.io/badge/SDK_License-MIT-orange.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/SDK_License-MIT-orange.svg)](https://opensource.org/licenses/MIT)
 [![PyPI](https://img.shields.io/pypi/v/custodyn.svg)](https://pypi.org/project/custodyn)
 [![npm](https://img.shields.io/npm/v/custodyn.svg)](https://npmjs.com/package/custodyn)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://python.org)
+[![Node 16+](https://img.shields.io/badge/node-16+-green.svg)](https://nodejs.org)
+[![GitHub stars](https://img.shields.io/github/stars/custodyn/custodyn?style=social)](https://github.com/custodyn/custodyn/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/custodyn/custodyn)](https://github.com/custodyn/custodyn/issues)
+[![Status](https://img.shields.io/badge/status-live-brightgreen.svg)](https://custodyn.app)
 
 [Website](https://custodyn.app) · [Documentation](https://custodyn.app/docs.html) · [Security](https://custodyn.app/security.html)
 

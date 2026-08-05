@@ -15,7 +15,7 @@ Intercept high-impact agent actions, evaluate them against policy, and keep a ta
 [![GitHub issues](https://img.shields.io/github/issues/custodyn/custodyn)](https://github.com/custodyn/custodyn/issues)
 [![Status](https://img.shields.io/badge/status-live-brightgreen.svg)](https://custodyn.app)
 
-[Website](https://custodyn.app) · [Documentation](https://custodyn.app/docs.html) · [Security](https://custodyn.app/security.html)
+[Website](https://custodyn.app) · [Documentation](https://custodyn.app/docs.html) · [Security](https://custodyn.app/security.html) · [**Sign up free →**](https://custodyn.app/signup.html)
 
 </div>
 

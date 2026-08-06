@@ -31,7 +31,7 @@ Custodyn can allow an action, block it, or route it to a human approval queue. I
 
 > Custodyn is designed to be used in the execution path. The protection it provides depends on integrating the SDK or gateway with the actions you intend to govern.
 
-> Custodyn works as an SDK you integrate directly, or as a gateway proxy your agent's traffic passes through — no code changes required for the proxy path.
+Custodyn works as an SDK you integrate directly, or as a gateway proxy your agent's traffic passes through — no code changes required for the proxy path.
 
 ## Quick start
 

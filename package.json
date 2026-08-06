@@ -18,8 +18,8 @@
   "scripts": {
     "demo": "node sdk/example.js",
     "demo:ts": "ts-node sdk/example.ts",
-    "server": "python3 backend/server_v4.py",
-    "dashboard": "python3 -m http.server 8080 --directory dashboard"
+    "dev:server": "python3 backend/server_v4.py",
+    "dev:dashboard": "python3 -m http.server 8080 --directory dashboard"
   },
   "devDependencies": {
     "typescript": "^5.0.0",

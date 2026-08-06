@@ -88,6 +88,7 @@ if (result.allowed) {
 Point your agent's HTTP client at the Custodyn proxy — no SDK required.
 https://gateway.custodyn.app/proxy
 All requests are evaluated against your policy before being forwarded. Useful for n8n, Make, Zapier, or any tool where you can't install a package.
+> See [gateway setup →](https://custodyn.app/docs.html)
 
 ### OpenClaw
 

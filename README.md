@@ -98,7 +98,7 @@ X-API-Key: as_live_...
 X-Custodyn-Agent-Id: agt_...
 ```
 All requests are evaluated against your policy before being forwarded. Useful for n8n, Make, Zapier, or any HTTP tool where you can't install a package.
-> See [gateway setup →](https://custodyn.app/docs.html)
+> See [gateway setup →](https://custodyn.app/docs.html) or login to custodyn and open integrations page for complete setup.
 
 ### OpenClaw
 

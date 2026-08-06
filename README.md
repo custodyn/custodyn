@@ -30,6 +30,7 @@ Custodyn is a policy enforcement layer for AI agents. Integrate the SDK or gatew
 Custodyn can allow an action, block it, or route it to a human approval queue. It records the resulting decision so teams can investigate behavior, demonstrate control coverage, and respond quickly when an agent needs to be paused.
 
 > Custodyn is designed to be used in the execution path. The protection it provides depends on integrating the SDK or gateway with the actions you intend to govern.
+
 > Custodyn works as an SDK you integrate directly, or as a gateway proxy your agent's traffic passes through — no code changes required for the proxy path.
 
 ## Quick start

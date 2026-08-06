@@ -12,7 +12,6 @@ Intercept high-impact agent actions, evaluate them against policy, and keep a ta
 [![npm](https://img.shields.io/npm/v/custodyn.svg)](https://npmjs.com/package/custodyn)
 [![npm downloads](https://img.shields.io/npm/dw/custodyn)](https://www.npmjs.com/package/custodyn)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://python.org)
-[![Python versions](https://img.shields.io/pypi/pyversions/custodyn)](https://pypi.org/project/custodyn/)
 [![Node 16+](https://img.shields.io/badge/node-16+-green.svg)](https://nodejs.org)
 [![GitHub stars](https://img.shields.io/github/stars/custodyn/custodyn?style=social)](https://github.com/custodyn/custodyn/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/custodyn/custodyn)](https://github.com/custodyn/custodyn/issues)

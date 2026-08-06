@@ -84,9 +84,17 @@ if (result.allowed) {
 }
 ```
 ### No-code / Gateway
-
-Point your agent's HTTP client at the Custodyn proxy — no SDK required.
-https://gateway.custodyn.app/proxy
+Zero code? No problem.
+Use the Custodyn Reverse Proxy — change one URL, add one header. Works with n8n, Make.com, Zapier, and any tool that makes HTTP calls. No SDK, no code changes.
+```
+# Before
+https://api.stripe.com/v1/charges
+# After (with Custodyn)
+https://custodyn.app/proxy/https://api.stripe.com/v1/charges
+# Required headers
+X-API-Key: as_live_...
+X-Custodyn-Agent-Id: agt_...
+```
 All requests are evaluated against your policy before being forwarded. Useful for n8n, Make, Zapier, or any tool where you can't install a package.
 > See [gateway setup →](https://custodyn.app/docs.html)
 

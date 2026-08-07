@@ -1,6 +1,6 @@
 <div align="center">
 
-# custodyn.
+# Custodyn.
 
 **Every AI agent action should be authorized before execution.**
 

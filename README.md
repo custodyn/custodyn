@@ -2,7 +2,7 @@
 
 # custodyn.
 
-**Runtime policy enforcement for AI agents**
+**Every AI agent action should be authorized before execution.**
 
 Intercept high-impact agent actions, evaluate them against policy, and keep a tamper-evident record of the decision.
 
@@ -143,6 +143,22 @@ Use `failClosed: true` (the SDK default) when an unavailable policy service shou
 - **Human approvals** — review high-impact actions, including optional two-person approval and expiry rules.
 - **Audit evidence** — tamper-evident action records with policy context and integrity hashes.
 - **Agent operations** — trust scoring, policy coverage, kill switch, and team role controls.
+
+## SDK vs Custodyn Cloud
+
+The SDK works standalone for local testing and development. For production use, connect to Custodyn Cloud to unlock the full control plane.
+
+| Capability | SDK alone | With Custodyn Cloud |
+|---|---|---|
+| Policy checks | ✓ Local presets only | ✓ Custom org policies |
+| Audit log | In-memory, lost on exit | Permanent, tamper-evident |
+| Human approvals | Always times out → denied | Full approval queue + Slack/Teams |
+| Multi-agent visibility | ✗ | ✓ Dashboard |
+| Kill switch | ✗ | ✓ One click |
+| SOC2 export | ✗ | ✓ |
+| Fail-closed config | Local default only | Synced from dashboard |
+
+[Sign up free →](https://custodyn.app/signup.html)
 
 ## Supported integrations
 
